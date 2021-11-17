@@ -8,8 +8,8 @@
 }
 
 body {
-    background: #e4b007;
-    color: #333; 
+    background:#01518F;
+    color: #24B6FF; 
 }
 
 
@@ -22,8 +22,12 @@ section, header {
 
 /*-- Styling Typography --*/
 
-h1, h2, blockquote {
-    color: #e73737fd; 
+h1, h2, {
+    color: #24B6FF; 
+}
+
+blockquote {
+    color:rgb(241, 245, 248);
 }
 
 p, blockquote {
@@ -33,6 +37,7 @@ p, blockquote {
 h1 {
     font-size: 5.653rem;
     margin-top: 2em;
+    text-align: center;
 }
 h2 { 
     font-size: 1.999rem;
