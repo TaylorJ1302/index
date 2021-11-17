@@ -22,8 +22,8 @@ section, header {
 
 /*-- Styling Typography --*/
 
-h1, h2, {
-    color: #24B6FF; 
+h1,h2 {
+    color:#f0f2f3;  
 }
 
 blockquote {
