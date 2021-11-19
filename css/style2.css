@@ -22,8 +22,9 @@ section, header {
 
 /*-- Styling Typography --*/
 
-h1,h2 {
+h1,h2,h3 {
     color:#f0f2f3;  
+    text-align: center;
 }
 
 blockquote {
@@ -42,6 +43,13 @@ h1 {
 h2 { 
     font-size: 1.999rem;
     margin: 3em 0 1em 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.999rem;
+    margin: 3em 0 1em 0;
+    text-align: center;
 }
 
 blockquote {
