@@ -20,6 +20,10 @@ section, header {
     margin: auto; 
 }
 
+section {
+    border-bottom: 1px solid #f0f2f3;
+}
+
 /*-- Styling Typography --*/
 
 h1,h2,h3 {
