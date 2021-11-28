@@ -8,8 +8,7 @@
 }
 
 body {
-    background:#01518F;
-    color: #24B6FF; 
+    background: #C0F7D1;
 }
 
 
@@ -26,24 +25,28 @@ section {
 
 /*-- Styling Typography --*/
 
-h1,h2,h3 {
-    color:#f0f2f3;  
+h2,h3 {
+    color:#5DC27D;  
     text-align: center;
 }
 
-blockquote {
-    color:rgb(241, 245, 248);
+
+p{
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+    color: #000;
+    font-family: mrs-eaves, serif;
+    font-size: 1.2rem;
 }
 
-p, blockquote {
-    margin-bottom: 1.5rem;
-    line-height: 1.4
-}
 h1 {
     font-size: 5.653rem;
     margin-top: 2em;
     text-align: center;
+    font-family: baskerville-display-pt, serif;
+    color:#38754C;
 }
+
 h2 { 
     font-size: 1.999rem;
     margin: 3em 0 1em 0;
@@ -54,6 +57,7 @@ h3 {
     font-size: 1.999rem;
     margin: 3em 0 1em 0;
     text-align: center;
+    margin-top: -3rem;
 }
 
 blockquote {
@@ -61,6 +65,9 @@ blockquote {
     font-style: italic;
     hanging-punctuation: first;
     text-indent: -0.75rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+    color:#38754C; 
 }
 
 cite {
@@ -71,12 +78,12 @@ cite {
 
 /*-- Styling Links --*/
 a{
-    colour: #3751e7fd;
+    colour: #5DC27D;
     text-decoration: none;
 }
 
 a:hover {
-    color:rgb(70, 156, 226);
+    color:#5DC27D;
     border-bottom: 1px dotted;
 }
 
@@ -88,7 +95,7 @@ nav {
     left: 0;
     margin: 0;
     width: 100%;
-    background: #3751e7fd; 
+    background: #38754C; 
     padding: 2em 0;
     font-size: 0.75rem;
 }
@@ -110,20 +117,36 @@ nav a {
 
 nav a:hover {
     border-bottom:none;
-    color:rgb(70, 156, 226);
+    color:#5DC27D;
     transition: all 0.3s ease-in-out
 }
 
 hr{
     margin: 100px 0;
     height: 1px;
-    background-color:#3751e7fd; 
-    color: #3751e7fd;
+    background-color:#38754C; 
+    color: #38754C;
     border: 0 none;
+}
+
+.dark 
+{
+    background: #38754C;
+    margin: auto;
+    padding: 2em;
+    max-width: auto;
+}
+
+img{
+    display: block;
+    margin: 4em 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 footer {
     text-align: center;
     font-size: 0.75rem;
     margin: 4em 0 3em;
+    color: #38754C;
 }
