@@ -41,7 +41,7 @@ p{
 
 h1 {
     font-size: 5.653rem;
-    margin-top: 2em;
+    margin-top: -0.5em;
     text-align: center;
     font-family: baskerville-display-pt, serif;
     color:#38754C;
@@ -133,15 +133,15 @@ hr{
 {
     background: #38754C;
     margin: auto;
-    padding: 2em;
-    max-width: auto;
+    padding: 3.5em;
+    width: auto;
 }
 
 img{
     display: block;
     margin: 4em 0;
     padding: 0;
-    max-width: 100%;
+    width: 100%;
 }
 
 footer {
