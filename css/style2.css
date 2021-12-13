@@ -41,7 +41,7 @@ p{
 
 h1 {
     font-size: 5.653rem;
-    margin-top: -0.5em;
+    margin-top: 1em;
     text-align: center;
     font-family: baskerville-display-pt, serif;
     color:#38754C;
@@ -134,6 +134,17 @@ hr{
     color: #38754C;
     border: 0 none;
 }
+
+.hr-white {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    height: 1px;
+    background-color:#ffffff; 
+    color: #ffffff;
+    border: 0 none;
+}
+
+
 
 .dark 
 {
